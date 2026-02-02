@@ -1,0 +1,54 @@
+# --- SENSITIVE DATA (CRITICAL) ---
+.env
+.venv
+env/
+venv/
+ENV/
+*.token
+*.key
+
+# --- PYTHON CLUTTER ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- DISTRIBUTION / PACKAGING ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- UNIT TEST / COVERAGE REPORTS ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# --- IDE SPECIFIC ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
